@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6402E41D5426E500652BAC /* objcKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402E31D5426E500652BAC /* objcKeyPath.h */; };
+		FE6402E41D5426E500652BAC /* objcKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402E31D5426E500652BAC /* objcKeyPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6402EB1D5426E500652BAC /* objcKeyPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6402E01D5426E500652BAC /* objcKeyPath.framework */; };
 		FE6402F01D5426E500652BAC /* objcKeyPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402EF1D5426E500652BAC /* objcKeyPathTests.m */; };
+		FE6402FC1D54271800652BAC /* objcKeyPath.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6402FA1D54271800652BAC /* objcKeyPath.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		FE6402EA1D5426E500652BAC /* objcKeyPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcKeyPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6402EF1D5426E500652BAC /* objcKeyPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcKeyPathTests.m; sourceTree = "<group>"; };
 		FE6402F11D5426E500652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6402FA1D54271800652BAC /* objcKeyPath.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcKeyPath.podspec; sourceTree = "<group>"; };
+		FE6402FB1D54271800652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 				FE6402E21D5426E500652BAC /* objcKeyPath */,
 				FE6402EE1D5426E500652BAC /* objcKeyPathTests */,
 				FE6402E11D5426E500652BAC /* Products */,
+				FE6402FA1D54271800652BAC /* objcKeyPath.podspec */,
+				FE6402FB1D54271800652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6402FC1D54271800652BAC /* objcKeyPath.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

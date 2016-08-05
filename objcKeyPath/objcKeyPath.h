@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char objcKeyPathVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcKeyPath/PublicHeader.h>
 
+#pragma mark VDKeyPath
+#if !VDKeyPath
+#define VDKeyPath(target, path) \
+@(((void)(NO && ((void)target.path, NO)), # path))
+#endif
 
